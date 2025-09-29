@@ -1,0 +1,19 @@
+# Default configuration used by the CLI; override via flags or environment.
+# When adapting to another UNSW data source, start by editing the `handbook`
+# section (URL template, selectors, input/output paths) before touching code.
+handbook:
+  year: 2025
+  level: undergraduate
+  base_url_template: "https://www.handbook.unsw.edu.au/{level}/courses/{year}/{code}"
+  css_selector: "main"
+  input_file: "data/samples/course_codes.json"
+  output_file: "data/output/courses.csv"
+crawler:
+  browser: chromium
+  headless: true
+  verbose: false
+  delay_seconds: 0.5
+  session_prefix: unsw_handbook
+llm:
+  provider: "openai/gpt-4o-mini"
+  placeholder: "Not specified"

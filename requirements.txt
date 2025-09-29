@@ -1,0 +1,5 @@
+# Core scraping stack
+crawl4ai==0.4.247
+python-dotenv==1.0.1
+pydantic==2.10.6
+PyYAML==6.0.2

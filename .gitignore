@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment secrets
+.env
+
+# Playwright cache
+playwright-report/
+
+# Data outputs
+data/output/
