@@ -1,6 +1,6 @@
 # UNSW Handbook Course Scraper
 
-A purpose-built scraper that collects structured course information from the UNSW Handbook using Crawl4AI and an OpenAI-powered extraction prompt. The project has been reimagined from the ground up with a modular layout, YAML-driven configuration, and a single CLI entrypoint.
+A data scraper that gathers structured UNSW Handbook course data by pairing Crawl4AI-powered crawling with an OpenAI extraction prompt. Everything is wired through a single CLI entrypoint and a modular, YAML-driven configuration layer.
 
 ## Highlights
 
